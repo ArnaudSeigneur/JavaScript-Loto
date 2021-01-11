@@ -1,0 +1,107 @@
+
+
+/* Basic css */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100vh;
+}
+
+html {
+  background-color: #3b9c9c;
+
+  /* https://mycolor.space/gradient3?ori=to+right+top&hex=%23386DA8&hex2=%233B93B3&hex3=%233B9C9C&submit=submit */
+  background-image: linear-gradient(to right top, #386da8, #3375ac, #307cae, #3083b0, #338ab2, #318eb1, #3192b0, #3496af, #3298ab, #3299a6, #369ba1, #3b9c9c);
+  color: #fff5ee;
+  font-family: Arial, sans-serif;
+  transition: all .3s;
+}
+
+body {
+  background-color: #3b9c9c;
+
+  /* https://www.transparenttextures.com/ */
+  background: url("assets/bg.png") repeat;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+a,
+a:active,
+a:visited {
+  color: #ff833b;
+}
+
+a:hover {
+  color: #ff9659;
+}
+
+.hide {
+  display:none
+}
+.container {
+  max-width: 1400px;
+  width: 90%;
+}
+
+#choix {
+  text-align: center;
+}
+#choix div{
+  display: flex;
+  justify-content: space-between;
+}
+
+input[type=number]{
+  font-size: 3rem;
+  height:150px;
+  width:150px;
+  text-align: center;
+  border-radius: 100px;
+  border:none;
+  border: 2px solid blue;
+}
+
+#complementaire {
+  border: 2px solid red;
+}
+
+.warning{
+  border: 5px solid rgb(255, 251, 0) !important;
+}
+
+button {
+  margin-top:50px;
+  padding: 20px 30px;
+  font-size: 2rem;
+}
+#result > * {
+  margin: 50px auto;
+}
+#result .generate {
+  display:flex;
+  justify-content: space-between;
+}
+#result span {
+  padding: 50px;
+  border-radius: 100px;
+  font-size: 2rem;
+  background: beige;
+  color: black;
+  min-width: 130px;
+  text-align: center;
+}
+.complementaire {
+  background: rgb(235, 245, 220) !important;
+  border: 2px solid white;
+}
+.win {
+  background: greenyellow !important;
+}
+#result h3 {
+  margin-top:100px;
+}

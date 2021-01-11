@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Loto / La passerelle</title>
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header class="container">
+        <h1>Le loto de La Passerelle</h1>
+        <p>But du jeu : saisir 5 nombres compris entre 1 et 50 en espérant qu'ils correspondent à ceux tirés par l'ordinateur + le numéro complémentaire!</p>
+    </header>
+
+    <section id="choix" class="container">
+        <div>
+            <input type="number" class="nombres" id="" min="1" max="50">
+            <input type="number" class="nombres" id="" min="1" max="50">
+            <input type="number" class="nombres" id="" min="1" max="50">
+            <input type="number" class="nombres" id="" min="1" max="50">
+            <input type="number" class="nombres" id="" min="1" max="50">
+            <input type="number" class="" id="complementaire" min="1" max="50">
+        </div>
+        <button>Valider</button>
+    </section>
+
+    <section id="result" class="hide container">
+        <h2>Résultats du tirage</h2>
+        <div class="generate"></div>
+        <div class="saisi"></div>
+        <h3>Vous avez donc gagné <span></span>€</h3>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
